@@ -2,24 +2,22 @@
 output: html_document
 ---
 
-![](src/img/AG-BIOBOOK_Cover.png)
-
-![](src/img/Agenda%201.png)
-
-![](src/img/Agenda%202.png)
-
-![](src/img/Agenda%203.png)
-
-![](src/img/Agenda%204.png)
-
 ------------------------------------------------------------------------
+
+![](src/page/img/1.jpg)
+
+# Agenda
+
+![](src/page/img/2.jpg)
+
+![](src/page/img/3.jpg)
 
 # Content
 
-[Basic coding (R programming)](src/page/R_tutorial.html)
+1.  [Metagenomics Analysis](src/page/Metagenomics/metagenomics.html)
 
-[Data Pre-processing](src/page/nmr_data_preprocessing.html)
+2.  [Data Pre-processing](src/page/4_data_preprocessing_README.html)
 
-[Multivariate statistical Analysis](src/page/multivariate_analysis.html)
+3.  [Multivariate statistical Analysis](src/page/5_data_analysis_README.html)
 
-[Metabolite Identification](src/page/met_id.html)
+4.  [Metabolite Identification](src/page/6_metID_README.html)
