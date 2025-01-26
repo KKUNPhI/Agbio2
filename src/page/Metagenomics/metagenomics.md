@@ -54,4 +54,4 @@ Launch workflow
 
 ### Get the report
 
-Example: [Report](/wf-metagenomics-report.html)
+Example: [Report](./wf-metagenomics-report.html)
