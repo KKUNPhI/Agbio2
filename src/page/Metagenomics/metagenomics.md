@@ -28,33 +28,30 @@ Software for metagenomics analysis
 
 -   Log in to your Epi2Me account.
 
-    ![](img/Screenshot 2568-01-25 at 12.34.08.png)
+    ![](img/Screenshot%202568-01-25%20at%2012.34.08.png)
 
 ## **Select the Appropriate Workflow**
 
 Epi2Me provides several workflows tailored to specific applications. For metagenomics, the most relevant workflows are:
 
-![](img/Screenshot 2568-01-25 at 12.35.37.png)
+![](img/Screenshot%202568-01-25%20at%2012.35.37.png)
 
 Launch workflow
 
-![](img/Screenshot 2568-01-25 at 12.36.17.png)
+![](img/Screenshot%202568-01-25%20at%2012.36.17.png)
 
 **Run the Workflow**:
 
 -   Upload your data (fastq or bam files)
 
-    ![](img/Screenshot 2568-01-25 at 12.43.41.png)
+    ![](img/Screenshot%202568-01-25%20at%2012.43.41.png)
 
-```{=html}
 <!-- -->
-```
+
 -   After uploading your data, choose the workflow and start the analysis.
 
 -   Monitor progress via the Epi2Me dashboard.
 
 ### Get the report
 
-Example:
-
-[Report](src/page/Metagenomics/wf-metagenomics-report.html)
+Example: [Report](/wf-metagenomics-report.html)
