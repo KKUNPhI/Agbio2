@@ -16,8 +16,6 @@ output: html_document
 
 1.  [Metagenomics Analysis](src/page/Metagenomics/metagenomics.html)
 
-2.  [Data Pre-processing](src/page/4_data_preprocessing_README.html)
+2.  [Metabolite Identification](src/page/6_metID_README.html)
 
 3.  [Multivariate statistical Analysis](src/page/5_data_analysis_README.html)
-
-4.  [Metabolite Identification](src/page/6_metID_README.html)
