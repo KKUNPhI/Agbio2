@@ -20,26 +20,70 @@
             font-size: 2.5rem;
             text-shadow: 0 0 10px #00d4ff;
         }
-        .button {
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .dropbtn {
             background: linear-gradient(90deg, #00d4ff, #0044ff);
             color: white;
             padding: 15px 30px;
             font-size: 1.2rem;
             border: none;
             border-radius: 5px;
-            text-decoration: none;
             cursor: pointer;
             box-shadow: 0 0 15px #00d4ff;
             transition: 0.3s;
         }
-        .button:hover {
+        .dropbtn:hover {
             box-shadow: 0 0 25px #00d4ff;
             transform: scale(1.1);
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #222;
+            min-width: 200px;
+            box-shadow: 0 0 10px #00d4ff;
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: #00d4ff;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #333;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
         }
     </style>
 </head>
 <body>
     <h1>Group Assignment Data</h1>
-    <a href="assignment-data.html" class="button">View Assignment Data</a>
+    <div class="dropdown">
+        <button class="dropbtn">Group 1 and 2</button>
+        <div class="dropdown-content">
+            <a href="https://drive.google.com/drive/folders/1eJZWCSGQHCd_TwngVcKsgYCUqftHzd3A?usp=sharing">LC-MS Data</a>
+            <a href="https://github.com/KKUNPhI/Agbio2/tree/2459f84d6ae3f63d73cc446431b23c317811a80d/src/page/data/Group%201%20and%202">Sequencing Data</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">Group 3 and 4</button>
+        <div class="dropdown-content">
+            <a href="https://drive.google.com/drive/folders/1bCfQI0JXrgEqtAijCZlFKeG2aochjkm6?usp=sharing">LC-MS Data</a>
+            <a href="https://github.com/KKUNPhI/Agbio2/tree/2459f84d6ae3f63d73cc446431b23c317811a80d/src/page/data/Group%203%20and%204">Sequencing Data</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">Group 5 and 6</button>
+        <div class="dropdown-content">
+            <a href="https://drive.google.com/drive/folders/1fGUltFhF52UjzrEqo0q6-vFzpp26VFB4?usp=sharing">LC-MS Data</a>
+            <a href="https://github.com/KKUNPhI/Agbio2/tree/2459f84d6ae3f63d73cc446431b23c317811a80d/src/page/data/Group%205%20and%206">Sequencing Data</a>
+        </div>
+    </div>
 </body>
 </html>
